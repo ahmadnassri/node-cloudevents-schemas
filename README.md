@@ -19,8 +19,7 @@ This package publishes all versions of the [CloudEvents](https://cloudevents.io/
         └── 1.0
             └── spec.json
 
-How
----
+## How
 
 ``` js
 // directly require the JSON schema files
