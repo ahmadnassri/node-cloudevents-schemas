@@ -1,0 +1,6 @@
+[submodule "vendor/1.0"]
+	path = vendor/1.0
+	url = git@github.com:cloudevents/spec.git
+[submodule "vendor/latest"]
+	path = vendor/latest
+	url = git@github.com:cloudevents/spec.git
