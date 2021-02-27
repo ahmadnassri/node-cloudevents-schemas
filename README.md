@@ -8,7 +8,7 @@ node library project template
 [![test][test-img]][test-url]
 [![semantic][semantic-img]][semantic-url]
 
-This package publishes all versions of the [CloudEvents](https://cloudevents.io/) Schema JSON spec
+This package publishes all versions of the [CloudEvents][] Schema JSON spec
 
     .
     ├── LICENSE
@@ -36,6 +36,8 @@ const schemas = require('cloudevents-schemas')
   }
 */
 ```
+
+  [CloudEvents]: https://cloudevents.io/
 
 ----
 > Author: [Ahmad Nassri](https://www.ahmadnassri.com/) &bull;
