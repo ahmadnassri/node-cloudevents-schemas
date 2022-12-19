@@ -29,7 +29,7 @@
     "url": "https://github.com/ahmadnassri/node-cloudevents-schemas/issues"
   },
   "scripts": {
-    "prepack": "rsync -a $(readlink -f ./schemas) .",
+    "prepack": "find schemas -type l -exec sed -i '' {} \\;",
     "test": "tap test --no-coverage",
     "test:watch": "tap test --watch",
     "test:ci": "tap test --100",
